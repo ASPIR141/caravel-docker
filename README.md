@@ -1,6 +1,10 @@
 # Caravel
 A Docker image for Airbnb's Caravel data visualization platform.
 
+[![](https://img.shields.io/docker/pulls/aspir/caravel-docker.svg)](https://hub.docker.com/r/aspir/caravel-docker "Click to view the image on Docker Hub")
+[![](https://img.shields.io/docker/automated/aspir/caravel-docker.svg)]
+[![Documentation](https://img.shields.io/badge/docs-airbnb.io-blue.svg)](http://airbnb.io/caravel/)
+
 ## Setup
 Run the docker container by entering this commands into your console:
 
