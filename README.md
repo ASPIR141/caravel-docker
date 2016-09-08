@@ -12,7 +12,7 @@ After starting of the container, navigate to [http://localhost:8088/](http://loc
 
 ## Documentation
 The official documentation is available here:
-[http://airbnb.io/caravel/](http://airbnb.io/caravel/)
+[http://airbnb.io/caravel/](http://airbnb.io/caravel/).
 
 ## Database setup
 
