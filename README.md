@@ -2,7 +2,7 @@
 A Docker image for Airbnb's Caravel data visualization platform.
 
 [![](https://img.shields.io/docker/pulls/aspir/caravel-docker.svg)](https://hub.docker.com/r/aspir/caravel-docker "Click to view the image on Docker Hub")
-[![](https://img.shields.io/docker/automated/aspir/caravel-docker.svg)](https://hub.docker.com/r/aspir/caravel-docker)
+[![](https://img.shields.io/docker/automated/aspir/caravel-docker.svg)](https://hub.docker.com/r/aspir/caravel-docker) [![](https://images.microbadger.com/badges/image/aspir/caravel-docker.svg)](https://microbadger.com/images/aspir/caravel-docker "Get your own image badge on microbadger.com")
 [![Documentation](https://img.shields.io/badge/docs-airbnb.io-blue.svg)](http://airbnb.io/caravel/)
 
 ## Setup
@@ -34,3 +34,4 @@ The official documentation is available here:
           --env SQLALCHEMY_DATABASE_URI="mysql://user:pass@host:port/db" \
           <your username>/caravel
 ```
+ 
