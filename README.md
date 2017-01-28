@@ -1,4 +1,4 @@
-# Caravel
+# Airbnb Caravel
 A Docker image for Airbnb's Caravel data visualization platform.
 
 ## Setup

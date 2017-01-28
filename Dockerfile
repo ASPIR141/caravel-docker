@@ -1,10 +1,10 @@
 FROM debian:jessie
 
-MAINTAINER aspir141@gmail.com
+MAINTAINER v.branitsky@outlook.com
 
 ENV CARAVEL_VERSION 0.10.0
 ENV CARAVEL_HOME /home/caravel
-ENV PATH=$PATH:$CARAVEL_HOME \ 
+ENV PATH=$PATH:$CARAVEL_HOME \
     PYTHONPATH=$CARAVEL_HOME:$PYTHONPATH
 ENV CARAVEL_WEBSERVER_PORT 8088
 ENV CSRF_ENABLED True
@@ -29,7 +29,7 @@ RUN mkdir $CARAVEL_HOME
 WORKDIR $CARAVEL_HOME
 COPY caravel .
 
-RUN useradd -U caravel && \ 
+RUN useradd -U caravel && \
     mkdir $CARAVEL_HOME/db && \
     chown -R caravel:caravel $CARAVEL_HOME
 
